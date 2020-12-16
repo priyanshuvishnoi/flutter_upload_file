@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity,
           brightness: Brightness.dark),
-      // home: MyHomePage(title: 'Job Posts'),
+      home: MyHomePage(title: 'Job Posts'),
       // home: UploadComponent(),
     );
   }
