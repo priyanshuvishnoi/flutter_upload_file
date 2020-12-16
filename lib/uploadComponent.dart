@@ -52,7 +52,7 @@ class _UploadComponentState extends State<UploadComponent> {
 
   Future<void> _uploadFile(File file, String filename) async {
     StorageReference storageReference;
-    storageReference = FirebaseStorage.instance.ref().child("pdf/$filename");
+    storageReference = FirebaseStorage.instance.ref().child("pdf/$filename.pdf");
     final StorageUploadTask uploadTask = storageReference.putFile(file);
     final StorageTaskSnapshot downloadUrl = (await uploadTask.onComplete);
     final String url = (await downloadUrl.ref.getDownloadURL());

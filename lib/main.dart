@@ -335,7 +335,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                                                 .fromLTRB(0, 5,
                                                                     0, 0)),
                                                         RaisedButton(
-                                                          onPressed: () {},
+                                                          onPressed: () {
+                                                            Navigator.push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          UploadComponent()),
+                                                            );
+                                                          },
                                                           textColor:
                                                               Colors.white,
                                                           padding:
@@ -495,7 +503,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                                                 .fromLTRB(0, 5,
                                                                     0, 0)),
                                                         RaisedButton(
-                                                          onPressed: () {},
+                                                          onPressed: () {
+                                                            Navigator.push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          UploadComponent()),
+                                                            );
+                                                          },
                                                           textColor:
                                                               Colors.white,
                                                           padding:
@@ -655,7 +671,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                                                 .fromLTRB(0, 5,
                                                                     0, 0)),
                                                         RaisedButton(
-                                                          onPressed: () {},
+                                                          onPressed: () {
+                                                            Navigator.push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          UploadComponent()),
+                                                            );
+                                                          },
                                                           textColor:
                                                               Colors.white,
                                                           padding:
@@ -815,7 +839,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                                                 .fromLTRB(0, 5,
                                                                     0, 0)),
                                                         RaisedButton(
-                                                          onPressed: () {},
+                                                          onPressed: () {
+                                                            Navigator.push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          UploadComponent()),
+                                                            );
+                                                          },
                                                           textColor:
                                                               Colors.white,
                                                           padding:
